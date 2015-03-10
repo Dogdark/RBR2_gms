@@ -25,10 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if room_next(room) != -1
-    {
-    room_goto(room_next(room));
-    }
+            <string>instance_create(x,y, obj_loading)
+
 </string>
           </argument>
         </arguments>
