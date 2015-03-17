@@ -842,7 +842,7 @@ if fallSpeed &gt;= 0
     {
         tempPosY += fallSpeed;
     }
-    else if vCollision.halfTile
+    /*else if vCollision.halfTile
     {
         switch vCollision.orientation
         {
@@ -850,7 +850,7 @@ if fallSpeed &gt;= 0
                 tempPosY = vCollision.y - 1 *(x - vCollision.x) + 32
                 break
         }
-    }
+    }*/
     else
     {
         tempPosY = vCollision.y -16 
